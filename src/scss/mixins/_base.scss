@@ -1,0 +1,14 @@
+// create element
+@mixin create-elemnt($name) {
+    @at-root #{&}__#{$name}{
+        @content;
+    }
+}
+
+//create class
+
+@mixin create-class {
+    @at-root #{&}-#{$name}{
+        @content
+    }
+}

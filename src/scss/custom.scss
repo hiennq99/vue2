@@ -1,0 +1,354 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: $font-sans;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.font-mon {
+    font-family: "Montserrat", sans-serif;
+}
+
+button {
+    color: #ffffff;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.d-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.ph-15 {
+    padding: 0 15px;
+}
+
+.ph-20 {
+    padding: 0 20px;
+}
+
+.pv-8 {
+    padding: 8px 0;
+}
+
+.pv-15 {
+    padding: 15px 0;
+}
+
+.pv-12 {
+    padding: 10px 0;
+}
+
+.pv-20 {
+    padding: 20px 0;
+}
+
+.pv-25 {
+    padding: 25px 0;
+}
+
+.pv-30 {
+    padding: 30px 0;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.gray-text {
+    color: #5f727f;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.gray-pa {
+    color: #99a9b5;
+}
+
+.blue-pa {
+    color: #00bcd4;
+}
+
+.gray-price {
+    color: #3c3950;
+}
+
+.bg-gray-text {
+    background-color: #5f727f;
+}
+
+.bg-gray-pa {
+    background-color: #99a9b5;
+}
+
+.bg-gray-200 {
+    background-color: #828e97;
+}
+
+.bg-blue-pa {
+    background-color: #00bcd4;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-19 {
+    font-size: 19px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.unltra-light {
+    font-weight: 200;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.d-upper {
+    text-transform: uppercase;
+}
+
+.d-align-center {
+    align-items: center;
+}
+
+.d-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex-center {
+    text-align: center;
+    align-items: center;
+}
+
+.d-center {
+    text-align: center;
+}
+
+.d-left {
+    text-align: left;
+}
+
+.d-right {
+    text-align: right;
+}
+
+.d-col2 {
+    flex: 16.66%;
+    max-width: 16.66%;
+}
+
+.d-col4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.d-col3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.d-col6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.d-col7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+}
+
+.d-col8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+
+.d-col9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.d-colAuto {
+    flex: auto;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+.pb-50 {
+    padding-bottom: 40px;
+}
+.mv-25 {
+    margin: 25px 0;
+}
+.bg-gray-col {
+    background-color: #f0f3f2;
+}
+.d-relative {
+    position: relative;
+}
+@media (max-width: 1200px) {
+    .d-container {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .d-container {
+        padding: 0 15px;
+    }
+
+    .d-col3 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .pd-60 {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 868px) {
+    * {
+        font-size: 12px;
+    }
+    .non-pad {
+        padding: 0 !important;
+    }
+    .non-margin {
+        margin: 0 !important;
+    }
+    .ver-pad {
+        padding: 10px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .the,
+    .gem {
+        font-size: 40px !important;
+    }
+
+    .p15 {
+        padding: 20px 0;
+    }
+
+    .d-col3 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    .d-col8 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .d-col4 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .d-col6 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .d-col9 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .d-col3 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    * {
+        font-size: 10px;
+    }
+}
+@media (max-width: 475px) {
+    * {
+        font-size: 8px;
+    }
+}
+
+.ph-10 {
+    padding: 10px 0;
+}

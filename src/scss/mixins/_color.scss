@@ -1,0 +1,7 @@
+@mixin render-bg-color($value) { 
+    background-color: $value !important;
+}
+
+@mixin render-text-color ($value) {
+    color: $value !important;
+}
